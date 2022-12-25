@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    /*1.У инлайновых элементов снизу отступы. 2. С блочными элементами проще работать*/
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    /*Что бы наследовали шрифт ибо у них свой шрифт может быть*/
+}
+
+a {
+    text-decoration: none;
+    /*Лучше обоворить этот момент с дизайнером,буут ли ис-оваться стандартные подчеркивания или нет*/
+}

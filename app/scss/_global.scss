@@ -1,0 +1,13 @@
+body {
+    color: $accent;
+    font-size: 14px;
+    line-height: 17px;
+    @extend %SFProDisplay-400;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
