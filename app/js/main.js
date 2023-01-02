@@ -4,6 +4,8 @@ $(function() {
         arrows: true,
         autoplay: true,
         autoplaySpeed: 1000,
+        adaptiveHeight: !0,
+        lazyLoad: "ondemand",
         prevArrow: '<button class = "slider-blog__item-btn slider-blog__btnprev"><img src = "images/left.svg" alt = "" ></button>',
         nextArrow: '<button class = "slider-blog__item-btn slider-blog__btnnext"><img src = "images/right.svg" alt = "" ></button>',
     });

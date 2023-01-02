@@ -1,9 +1,20 @@
+html,
+body {
+    height: 100%;
+}
+
 body {
     color: $accent;
     font-size: 14px;
     line-height: 17px;
     @extend %SFProDisplay-400;
     background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
 }
 
 .container {
